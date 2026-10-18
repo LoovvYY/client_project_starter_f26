@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Shared layout assistance: OpenAI Codex, October 2026. -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>During Your Experience | UMSI Engaged Learning</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <header>
-    <a href="#main">Skip to Main Content</a>
-    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+    <img class="site-logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
     
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="prep.html">Preparing for Your Experience</a></li>
-            <li><a href="starting.html">Starting Your Experience</a></li>
-            <li><a href="during.html">During your Experience</a></li>
-        </ul>
+    <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="prep.html">Preparing for Your Experience</a></li>
+        <li><a href="starting.html">Starting Your Experience</a></li>
+        <li><a href="during.html" class="active" aria-current="page">During Your Experience</a></li>
+      </ul>
     </nav>
+  <h1>During Your Experience</h1>
 </header>
 
-<main id="main">
+<main id="main" tabindex="-1">
     <section>
-        <h1>During Your Experience</h1>
         <p>Navigate your active project through adaptive project management, human-centered fieldwork, and constructive feedback. Use this page to choose tools for research, progress tracking, and communication with your partner.</p>
     </section>
 
@@ -91,11 +94,9 @@
 
 <footer>
     <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
-    <address>
-        <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
-    </address>
+    <address><a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a></address>
     <p>&copy; 2026 Regents of the University of Michigan</p>
-</footer>
+  </footer>
 
 </body>
 

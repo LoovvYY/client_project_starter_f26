@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Shared layout assistance: OpenAI Codex, October 2026. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engaged Learning Resources | UMSI</title>
-
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header>
-    <a href = "#main">Skip to Main Content</a>
-          <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-          <nav>
-              <ul>
-                  <li><a href = "index.html">Home</a></li>
-                  <li><a href = "prep.html">Preparing for Your Experience</a></li>
-                  <li><a href = "starting.html">Starting Your Experience</a></li>
-                  <li><a href = "during.html">During your Experience</a></li>
-              </ul>
-          </nav>
+    <!-- Navigation and shared CSS written with assistance from OpenAI Codex, October 2026. -->
+    <a class="skip-link" href="#main">Skip to Main Content</a>
+          <img class="site-logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information">
+          <nav class="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="prep.html">Preparing for Your Experience</a></li>
+        <li><a href="starting.html">Starting Your Experience</a></li>
+        <li><a href="during.html">During Your Experience</a></li>
+      </ul>
+    </nav>
       <h1>Welcome to the UMSI Engaged Learning Office</h1>
 
     </header>
-    <main id="main">
+    <main id="main" tabindex="-1">
     <section>
       <h2>Build Skills. Work with Partners. Have an Impact.</h2>
       <p>
        The UMSI Engaged Learning Office connects students with opportunities to apply classroom knowledge to real challenges. Use this site to prepare for your experience, manage your work, and reflect on what you learned.
       </p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/81ZO9RfIJEQ?si=tBp82YWZMl1u7CVS" title="UMSI engaged learning video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          <!-- Note: this iframe might cause an Axe ARIA error - that's not on you that's on YouTube! -->
     </section>
 
@@ -40,7 +43,7 @@
     </p>
         <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
     <ul>
-        <li><strong>Follow a clear process:</strong>Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
+        <li><strong>Follow a clear process:</strong> Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
         <li><strong>Find practical support:</strong> Access relevant templates, checklists, examples, and how-to guidance for common project needs.</li>
         <li><strong>Build professional skills:</strong> Strengthen your communication, teamwork, project management, and ethical decision-making.</li>
         <li><strong>Turn experience into evidence:</strong> Identify what you learned and communicate your impact in resumes, portfolios, and interviews.</li>
@@ -63,13 +66,13 @@
     </article>
 
     <article>
-      <h3>Wrap Up and Move Forward</h3>
-      <p>Complete a responsible handoff, evaluate your impact, reflect on your growth, and translate your work into resume, portfolio, and interview content.</p>
-      <a href="starting.html">Plan your next steps</a>
+      <h3>Start Your Partnership</h3>
+      <p>Prepare for your first partner meeting, agree on roles, and build a shared project plan.</p>
+      <a href="starting.html">Start your experience</a>
     </article>
   </section>
 
-   <section>
+   <section class="program-grid">
     <h2>Featured Programs</h2>
     <p>Explore opportunities to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
     <article>
@@ -113,7 +116,7 @@
     <div>
        <a href="https://umsi.info/elo-newsletter"> Sign up for the ELO newsletter</a>
     </div>
-    <p>Questions? Email<a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu </a>.</p>
+    <p>Questions? Email <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu </a>.</p>
   </aside>
 
 
@@ -121,11 +124,9 @@
         UMGPT. (2026). UMGPT ( GPT-5.6 Sol September 7th version) [Large language model]. -->
     </main>
     <footer>
-        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
-      <address>
-        <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
-      </address>
-      <p>&copy; 2026 Regents of the University of Michigan</p>
-    </footer>
+    <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
+    <address><a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a></address>
+    <p>&copy; 2026 Regents of the University of Michigan</p>
+  </footer>
 </body>
 </html>
